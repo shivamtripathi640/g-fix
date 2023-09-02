@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 - Blog Cards</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      /* .card img {
+        height: 230px;
+      } */
+
+      .card-body{
+        /* height: auto; */
+        background-color: #fff1f1;
+      }
+
+      body{
+        margin-top: 40px;
+      }
+
+  .wrapper {
+  width: 300px;
+  background: #ecebfc;
+  padding: 0px;
+  margin: 20px 0px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  color: #000;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px
+}
+
+li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  content: "\f058";
+  color: red;
+}
+    </style>
+  </head>
+
+  <body class="bg-light">
+   
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <div class="card mb-5 shadow-sm">
+            <!-- <img src="images/img1.jpg" class="img-fluid" /> -->
+
+            <div class="card-body">
+              <div class="card-title">
+                <h2>GERMAN FIX<br> ELITE<span style="color:red;">BOND</span></h2>
+                <h6>POLYMER FORTIFIED TILE ADHESIVE</h6>
+              </div><br/>
+              <div class="card-text">
+                <p>
+                 Ideal for indoor application to fix high-porosity <br/> tiles like ceramic, terracota, and quarry tiles <br/>of regular size on walls and floors.
+                </p><br/>
+                <h6>PACKAGING UNITS</h6>
+                <P>20/30 &nbsp KG</P>
+
+                <h6>PRODUCT TYPE</h6>
+                <P>POWDER</P>
+
+                <h6>COLOURS</h6>
+                <P>GREY</P>
+
+              </div><br/>
+              <a href="#" class="btn btn-outline-primary rounded-0 float-start">CONNECT WITH OUR EXPERT</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12" >
+          <div class=" mb-5 sm" style=" padding:40px; height: 400px; width: 270px; background-color: #f8f9fa; ">
+            <!-- <img src="images/1.jpg" class="img-fluid" /> -->
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-6 col-sm-12" >
+            <div class=" mb-5 sm" style=" padding:33px; height: 400px; width: 270px; background-color: #f8f9fa; ">
+              <img src="images/1.jpg" class="img-fluid" />
+            </div>
+          </div>
+
+  
+        <div class="col-lg-5 col-md-6 col-sm-12" >
+          <div class="card mb-5 shadow-sm" style="background-color: #ecebfc; height: 280px;">
+            <div class="card-body" style="background-color: #ecebfc;">
+              <div class="card-title">
+                <h6>FEATURES AND BENEFITS</h6>
+              </div>
+              <hr/>
+              <div class="card-text">
+                <div class="wrapper">
+                    <!-- <p>An example showing how to use Font Awesome icons to replace bullets in an unordered list.</p> -->
+                    <ul>
+                      <li>READY TO USE</li>
+                      <li>SAVES TIME &INCREASES PRODUCTIVITY</li>
+                      <li>EXCELLENT ADHESION & LOW SHRINKAGE</li>
+                      <li>SELF-CURING PROPERTIES</li>
+                    </ul>
+                </div>
+              </div>
+              <a href="#" class="btn btn-outline-primary rounded-0 float-center"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12"  >
+            <div class=" mb-5 sm" style="  height: 300px; width: 270px; background-color: #f8f9fa;  margin-top: -30px; ">
+              <!-- <img src="images/1.jpg" class="img-fluid" /> -->
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <div class="card mb-5 shadow-sm">
+              <!-- <img src="imgs/c.jpg" class="img-fluid" /> -->
+              <div class="card-body" style="background-color: #363636; height: 280px;">
+                <div class="card-title" style="color: #fff;">
+                  <h5>German FIX Coverage Calculator</h5>
+                  
+                </div>
+                    <form id="calculator-form" class="form-horizontal">
+                      <div class="form-group card-text form-inline" style="color:#fff;">
+                        <div class="custom-control-inline row">
+                     <div class="col-md-5">
+                        <label class="col-foem-label" for="area">In area of sq.ft. :</label>
+                    </div>
+                        <div class="controls col-md-7">
+                     
+                         <input type="number" class="form-control w-100" id="area" placeholder="0&emsp;&emsp;&emsp;&emsp;&emsp;|sq.ft." required>
+                        
+                        </div>
+                        </div>
+                    </div>
+                      <div class="form-group card-text form-inline" style="color: #fff; margin-top: 25px;">
+                        <div class="custom-control-inline row">
+                            <div class="col-md-5">
+                        <label class=" col-foem-label" for="thickness">Thickness in square feet:</label>
+                    </div>
+                        <div class="controls col-md-7">
+                            <span class="input-group-btn">
+                        <input type="number" class="form-control w-100" id="thickness" placeholder="0&emsp;&emsp;&emsp;&emsp;&emsp; |sq.ft." required>
+                    </span> 
+                    </div> 
+                    </div>
+                      <button type="submit" class="btn btn-outline-primary rounded-0 float-center"
+                      style="margin-left: 126px; margin-top: 20px;">Calculate</button>
+                   
+                     </form>
+                     <div class="mt-3" style="color: #fff;">
+                      <h6>Total Product Required: <span id="result"></span>&nbsp; kgs</h6>
+                    </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+       
+
+        <div class="col-lg-5 col-md-6 col-sm-12"  style="background-color: #fff1f1;"  >
+            <div class="card mb-5 shadow-sm" style="background-color: #ecebfc; height: 180px; margin-top: 30px;">
+              <div class="card-body" style="background-color: #ecebfc;">
+                <div class="card-title">
+                  <h6>APPLICATION AREA</h6>
+                </div>
+                <hr/>
+                <div class="card-text">
+                  <div class="wrapper">
+                      <!-- <p>An example showing how to use Font Awesome icons to replace bullets in an unordered list.</p> -->
+                      <ul>
+                        <li>FOR POROUS TILES OF ALL TYPES & NATURAL STONES </li>
+                        <li>FOR INTERNAL FLOOR & WALL</li>
+                      </ul>
+                  </div>
+                </div>
+                <!-- <a href="#" class="btn btn-outline-primary rounded-0 float-center"
+                  >Read More</a
+                > -->
+              </div>
+            </div>
+          </div>
+
+          
+        <div class="col-lg-2 col-md-6 col-sm-12" style="background-color: #fff1f1;" >
+            <div class=" mb-5 sm" style=" background-color: #f8f9fa; ">
+              <div class="img-fluid"  style="color: #fff1f1;"></div>
+            </div>
+          </div>
+  
+          <div class="col-lg-5 col-md-6 col-sm-12"  style="background-color: #fff1f1; " >
+            <div class="card mb-5 shadow-sm">
+              <img src="images/16.jpg" class="img-fluid" />
+            </div>
+          </div>
+         
+
+      </div>
+    </div>
+
+    <script>
+        document.getElementById('calculator-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+          calculateProduct();
+        });
+    
+        function calculateProduct() {
+          const area = parseFloat(document.getElementById('area').value);
+          const thickness = parseFloat(document.getElementById('thickness').value);
+          const conversionFactor = 1.2; // Adjust this factor based on your needs
+    
+          const productRequired = area * thickness * conversionFactor;
+          document.getElementById('result').textContent = productRequired.toFixed(2);
+        }
+      </script>
+  </body>
+</html>
